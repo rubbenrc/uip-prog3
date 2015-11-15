@@ -1,4 +1,3 @@
-#-------------------------------------------------------------------------------
 # Name:        tarea#6 encuesta
 #
 # Author:      programar
@@ -26,16 +25,21 @@ entrada= "Clasificacion de deportes que practican las personas\n"
 print entrada.upper()
 #-------------------------------------------------------------------------------
 #pregunta
-opcion=0
 pregunta=0
 c1=1
-ct=1
-nom=" "
+ajedrez=0
+atletismo=0
+futbol=0
+baloncesto=0
+karate=0
+natacion=0
+volleyball=0
+flag=0
+pingpong=0
+otros=0
+
 while pregunta >1 or pregunta <=10 :
     pregunta=pregunta+1
-
-    encuestado= input("\nEncuestado#"+str(ct)+"   ""Diga el numero de encuestado:")
-    ct=encuestado+1
     print ("\n?Que deporte usted practica de la siguiente lista?\n ")
     print"1) Ajedrez"
     print'2) Atletismo'
@@ -50,69 +54,77 @@ while pregunta >1 or pregunta <=10 :
     opcion = int(raw_input('elija opcion: '))
 
     if opcion == 1:
-        ajedrez=("ajedrez")
-        print ajedrez
+
+        ajedrez=ajedrez+1
+        print "\najedrez"
 
     elif opcion == 2:
 
-        atletismo= ('\n2) Atletismo')
-        print atletismo
+        atletismo=atletismo+1
+        print "\natletismo"
 
     elif opcion == 3:
 
-        baloncesto= ('\n3) Baloncesto')
-        print baloncesto
+        baloncesto=baloncesto+1
         print "\nbaloncesto"
+
 
 
     elif opcion == 4:
 
-        futbol= ("\n4) Futbol")
-        print futbol
+        futbol=futbol+1
         print "\nfutbol"
 
     elif opcion == 5:
-        karate= ("\n5) Karate ")
-        print karate
+
+        karate=karate+1
         print "\nkarate"
 
 
     elif  opcion == 6:
-        natacion= ("\n6) Natacion")
-        print natacion
+
+        natacion=natacion+1
         print "\nnatacion"
 
 
     elif  opcion == 7:
 
-        volleyball= ("\n7) Volleyball")
-        print volleyball
+        volleyball=volleyball+1
         print "\nvolleybol"
 
 
     elif  opcion == 8:
-        por=100
-        encuestado=10
-        flag= ("\n8) Flag")
-        print flag
+
+        flag=flag+1
         print "\nflag"
 
     elif  opcion == 9:
 
-        pingpong= ("\n9) Ping Pong")
-        print pingpong
+        pingpong=pingpong+1
         print "\nping pong"
 
+    elif opcion==10:
+
+        otros=otros+1
+        print"\notros"
     else:
-        otros= ("\n10) otros")
-        print otros
+        print"\nelija opciones establecidas"
 
     if pregunta >=10:
         break
 
-opcion = int(raw_input('elija opcion: '))
 
+
+print("\nEl total de encuestado de los diferentes deportes son:\n")
+print("ajedrez",ajedrez)
+print("atletismo:",atletismo)
+print("baloncesto:",baloncesto)
+print("futbol:",futbol)
+print("karate:",karate)
+print("natacion:",natacion)
+print("volleyball:",volleyball)
+print("flag:",flag)
+print("pingpong",pingpong)
+print("otros",otros)
 msvcrt.getch()
 
-#----------------------------------------------------------------------------------------------------------
-#profe no se como almacenar los datos que introduce el usuario
