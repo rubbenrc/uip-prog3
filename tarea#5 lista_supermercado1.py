@@ -1,4 +1,4 @@
-#-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 # Name:        Tarea#5 lista de supermercado de la empresa ABC
 # Autor:      programar
 #
@@ -23,14 +23,17 @@ print entrada.upper()
 #------------------------------------------------------------------------------------------------------------
 #menu agregar
 import msvcrt
+lista_supermercado_funciones=0
+lista_supermercado_manejo_excepciones=0
+lista_supermercado_modulos=0
 lista_supermercado_funciones=[]
 lista_supermercado_manejo_excepciones=[]
 lista_supermercado_modulos=[]
 
-print 'Aque lista quiere agregarle un articulo?\n'
-print '1) lista de supermercado funciones '
-print '2) lista de supermercado excepciones'
-print '3) lista de supermercado modulos'
+print 'elija la opcion de su gusto \n'
+print '1) agregar lista de supermercado funciones '
+print '2) agregar lista de supermercado excepciones'
+print '3) agregar lista de supermercado modulos'
 print "4) ver lista de supermercados"
 print "5) eliminar"
 
@@ -81,23 +84,28 @@ print '3) lista de supermercado modulos'
 opcion = int(raw_input('elija opcion: '))
 
 if opcion == 1:
-   lista_supermercado_funciones=[  ]
-   for x in lista_supermercado_funciones:
-    print x
-    break
+
+    lista_supermercado_funciones=[  ]
+    for x in lista_supermercado_funciones:
+     print x
+     break
+
 elif opcion == 2:
     lista_supermercado_manejo_excepciones=[ ]
     for x in lista_supermercado_manejo_excepciones:
      print x
      break
 elif opcion == 3:
+
     lista_supermercado_modulos=[  ]
     for x in lista_supermercado_modulos:
      print x
      break
 else:
     print "articulo no encontrado"
-
+    print("lista de supermercado funciones:",lista_supermercado_funciones)
+    print ("lista de supermercao manejo de excepciones",lista_supermercado_excepciones)
+    print("lista de supermercado modulos",lista_supermercado_modulos)
 #-----------------------------------------------------------------------------------------------------------
 #opcion 5 eliminar
 lista_supermercado_funciones=[]
@@ -140,7 +148,10 @@ elif opcion == 3:
 else:
     print "articulo no encontrado"
 
+
 msvcrt.getch()
-#--------------------------------------------------------------------------------------------------------------------------------------
-#profe no se como almacenar el dato introducido y como hacer ver la lista
+
+
+
+
 
