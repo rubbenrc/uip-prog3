@@ -1,12 +1,10 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
+# Name:       presupuesto parcial#1
 # Author:      programar
 #
-# Created:     16/11/2015
+# Creado:     12/11/2015
 # Copyright:   (c) programar 2015
-# Licence:     <your licence>
+# Licence:     <your licence 1.1>
 #-------------------------------------------------------------------------------
 import msvcrt
 titulo="Empresa Rubben Rc Corporation\n".capitalize()
