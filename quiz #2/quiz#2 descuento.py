@@ -1,10 +1,8 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
-# Author:      programar
-#
-# Created:     15/11/2015
+# Name:    descuento 
+# Author:      rubben rc
+
+# Creado:     10/11/2015
 # Copyright:   (c) programar 2015
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
