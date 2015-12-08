@@ -1,5 +1,5 @@
 # uip-prog3
-<<<<<<< HEAD
+
 # Programacion de Computadoras III-UIP
 * *Autor*: Ruben Abrego
 * *Version*: 1.0
