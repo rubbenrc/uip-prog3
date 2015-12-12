@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Name: quiz#1 perimetro y area de un rectangulo 
+# Name: quiz#1 perimetro y area
 # Author: rubben rc
 # Copyright: (c) programar 2015
 #-------------------------------------------------------------------------------
@@ -8,5 +8,13 @@ base=5
 altura=7
 area=(int(base)*(altura))
 perimetro=(2*int(base))+(2*int(altura))
-print"el area de un rectangulo es:",area
-print"el perimetro de un rectangulo es:",perimetro
+area_metro= area/100
+area_pulgada= area*0.39370
+perimetro_metro= perimetro/100
+perimetro_pulgada= perimetro*0.39370
+print"el area es:",area
+print"el perimetro es:",perimetro
+print"area a metros",area_metro
+print"area a pulgadas:",area_pulgada
+print"perimetro a metros:",perimetro_metro
+print"perimetro a pulgada:",perimetro_pulgada
