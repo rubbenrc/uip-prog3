@@ -1,0 +1,17 @@
+# Author:      rubben rc
+#
+# Created:     12/12/2015
+# Copyright:   (c) programar 2015
+# Licence:     <your licence>
+#-------------------------------------------------------------------------------
+print"quiz#3"
+
+for i in range(6):
+    segundos= int(raw_input("ingrese el valor en segundos:"))
+    au_segundos=segundos
+    minuto=0
+    for k in range(60):
+        if au_segundos>=60:
+            au_segundos=au_segundos-60
+            minuto= minuto+1
+    print"los segundos que faltan para completar un segundo mas son: ",(60-au_segundos),"segundos"
